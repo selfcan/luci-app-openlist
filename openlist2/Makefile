@@ -7,13 +7,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=openlist2
-PKG_VERSION:=4.1.2
+PKG_VERSION:=4.1.1
 PKG_WEB_VERSION:=4.1.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=openlist-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/OpenListTeam/OpenList/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=4de94e32f4b05d86654f97cd1551b8cfbbed6b2c38b2ac400fde3e7622013614
+PKG_HASH:=19233fbe67d848e1212b8c23e8af145b1c23533a2c09fd66c141d2de05b9b15c
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/OpenList-$(PKG_VERSION)
 
